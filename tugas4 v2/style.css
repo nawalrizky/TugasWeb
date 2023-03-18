@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    height: 20px;
+    padding:15px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    
+}
+
+.navigation > li { 
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigation>li>a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.article {
+    display: flex;
+    margin:50px 200px 20px;
+    
+    
+}
+
+.introduction {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right:80px;
+    
+    
+}
+
+.first {
+    font-size: 12px;
+    font-style: italic;
+    padding: 5px 0;
+    
+}
+
+.second {
+    font-weight: 500;
+    font-family: 'roboto', sans-serif;
+    font-size: 38px;
+    padding: 0 0 7px;
+}
+
+.second  > i {
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif
+}
+
+.introduction .third {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.introduction .third >p >i {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bubble {
+    display: flex;
+    margin-top:15px;
+}
+
+.bubble > p {
+    margin-right: 10px;
+    font-size: 13px;
+    padding: 5px;
+    border: groove;
+    border-radius: 10px;
+}
+.container-img {
+    display: flex;
+    margin: 0 150px 0 200px;
+    height: 500px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    margin: 20px 0 0 200px;
+   
+}
+.footer-left > p {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: 'oswald', sans-serif;
+    font-weight: 500;
+}
+
+.footer-left > p > i{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-right {
+    display: flex;
+   
+    margin: 20px 150px ;
+    padding-left: 20px;
+    
+}
+.copy {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    border: groove;
+    border-radius: 20px;
+    font-family: 'roboto', sans-serif;
+    font-size: 11px;
+    
+}
+
+.copy > i{
+    padding-right: 5px;
+}
+
+.footer-right >i{
+    padding: 5px;
+}
+
+#logo {
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+#logo2 {
+    height: 170px;
+    width: 450px;
+    border-radius:100%;
+}
+
+#profile {
+    height: 20px;
+    width : 20px;
+    border-radius: 15px;
+}
+
+#image2 {
+    width: 100%;
+    border-radius: 200px 0 0 0;
+}
